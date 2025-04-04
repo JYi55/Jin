@@ -52,6 +52,16 @@
         <p>Passionate exploring more analytical skills to support my future goal as a best business analyst </p>
         <button class="work-button" onclick="scrollToWork()">See My Work</button>
       </div>
+    <script>
+    // Function to scroll smoothly to the "work" section
+    function scrollToWork() {
+      const workSection = document.getElementById('services');
+      workSection.scrollIntoView({
+        behavior: 'smooth', // Smooth scroll
+        block: 'start' // Scroll to the top of the section
+      });
+    }
+  </script>
     </div>
 
   <div class="logoig">
