@@ -133,7 +133,16 @@
       <div class="more-button-container" style="text-align: center; margin-top: 20px;">
         <button id="About2" class="more-button">Expand More</button>
       </div>
-
+<script>
+    // Function to scroll smoothly to the "work" section
+    function scrollToWork() {
+      const workSection = document.getElementById('work');
+      workSection.scrollIntoView({
+        behavior: 'smooth', // Smooth scroll
+        block: 'start' // Scroll to the top of the section
+      });
+    }
+  </script>
     </div>
   </div>
 </div>
