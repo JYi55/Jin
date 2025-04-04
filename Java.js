@@ -1,6 +1,11 @@
 // Smooth scrolling for "Scroll" button
 function scrollToWork() {
-  document.getElementById("services").scrollIntoView({ behavior: "smooth" });
+    const workSection = document.getElementById('services');
+      workSection.scrollIntoView({
+        behavior: 'smooth', // Smooth scroll
+        block: 'start' // Scroll to the top of the section
+      });
+    }
 }
 
 // Event listener for the "Expand" button 
